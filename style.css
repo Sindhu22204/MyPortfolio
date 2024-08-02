@@ -1,0 +1,200 @@
+#body{
+    background-color:black;
+}
+#navgate{
+    margin-top:2%;
+}
+#subhead{
+    color:azure;
+}
+.aa{
+    color:azure;
+    font-size: larger;
+    word-spacing: 20px;
+    font-weight: bolder;
+    padding:5%;
+    margin-top:10%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+   text-decoration: none;
+}
+
+.aa::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: white; /* Adjust the color of the line */
+    transition: width 0.3s; /* Smooth transition */
+}
+
+.aa:hover::after {
+    width: 80%;
+}
+
+#name{
+    color:azure;
+}
+
+#helloIm{
+    margin-top:20%;
+}
+#myImg{
+    margin-top:10%;
+}
+#sindhuImg{
+    border-radius: 50%;
+}
+#aboutHead{
+    color:azure;
+    margin-top: 40%;
+}
+#aboutImg{
+    margin-top:30%;
+}
+#note{
+    color:azure;
+    font-size: larger;
+    font-weight: bold;
+}
+#resumeButton{
+    width:20%;
+    height:auto;
+    border-radius: 20%;
+    font-size: larger;
+}
+#skillsHead{
+    margin-top:20%;
+    color:azure;
+}
+#progLang{
+    border-radius: 10%;
+    width:100%;
+    height:100%;
+    margin-top:30%;
+}
+.list{
+    color:azure;
+    font-size: larger;
+    font-weight: bolder;
+    word-spacing: 10px;
+}
+#projHead{
+    color:azure;
+    margin-top:10%;
+}
+#contactHead{
+    color: azure;
+    margin-top:10%;
+}
+.icon-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .icon-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem; 
+    transition: color 0.3s;
+    margin-bottom: 10%;
+  }
+  .icon-container a:hover {
+    color: #0073b1; 
+  }
+
+
+  .skills-container {
+    margin-top: 8%;
+}
+.skillHeader {
+    margin-bottom: 15px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skill-item i {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 3%;
+    color:rgb(205, 247, 247);
+}
+.skill-item p {
+    margin: 0;
+    color:azure;
+}
+.skill-category {
+    margin-bottom: 30px;
+}
+.skillHeader{
+    color:white;
+}
+
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e8e6e6;
+    box-shadow: 8px 10px #565656;
+}
+
+.project-box:hover{
+    background-color: #6d6b6b; /* Darker grey */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.project-box h3 {
+    margin-top: 0;
+}
+
+.project-box p {
+    margin: 0;
+}
+
+#linkdin{
+    width:200px;
+}
+
+#github{
+     size:90%;
+}
+
+#certifyHead{
+    color:azure;
+}
+.certification-table{
+    color:azure;
+    border-collapse: collapse;
+    border: 2px solid white;
+    padding:2%;
+    margin:2% auto;
+}
+.eachRow{
+    border:2px solid white;
+    
+}
+.cell, .cell1 {
+    border: 2px solid white;
+    padding: 2%;
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: bolder;
+  }
+  
+  .cell1 {
+    background-color: rgb(79, 77, 77);
+  }
+
+  tr:hover {background-color: rgb(118, 121, 118);}
+
+ 

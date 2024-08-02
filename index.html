@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body id="body">
+   <header>
+    <nav id="navgate">
+        <a href="#about" class="aa"> AboutMe</a>
+        <a href="#skills" class="aa"> Skills </a>
+        <a href="#projects" class="aa"> Projects </a>
+        <a href="#certification" class="aa">Certifications</a>
+        <a href="#contact" class="aa"> ContactMe </a>
+    </nav>
+   </header>
+
+   <div class="container">
+
+    <section id="about">
+    <div class="row">
+    <div class="col-8" id="helloIm">
+       <h1 id="name">Hello I'm Sindhu L</h1> <br/>
+       <h3 id="subhead"> Passionate about web development. </h3>
+       <p id="note"> I am curious to explore and delve deeper into web development and java development.</p>
+        <br/>
+        <button id="resumeButton">
+            Resume 
+        </button>
+    </div>
+    <div class=" col-3" id="myImg">
+    <img src="Sindhu.L.png" alt="Sindhu Image" id="sindhuImg"/>
+
+    </div>
+   </div>
+</section>
+
+
+<script>
+    document.getElementById('resumeButton').onclick = function() {
+        // Replace the URL below with the link to your resume
+        window.location.href = 'https://docs.google.com/document/d/1BBTvQeeNqHfTXLIXumEFbO_0ri3gFOV2/edit';
+    };
+</script>
+
+
+<section id="skills">
+    <h2 id="skillsHead">Skills</h2>  
+    <div class="skills-container">
+        <div class="skill-category row">
+            <h4 class="skillHeader col-1">Programming Languages:</h4>
+            <div class="skill-item offset-1  col-1">
+                <i class="fab fa-java"></i>
+                <p>Java</p>
+            </div>
+            <div class="skill-item offset-1 col-1">
+                <i class="fab fa-c"></i>
+                <p> </p>
+            </div>
+            <div class="skill-item offset-1 col-1">
+                <i class="fab fa-cplusplus"></i>
+                <p>C++</p>
+            </div>
+            <div class="skill-item offset-1 col-1">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </div>
+        </div>
+
+        <div class="skill-category row">
+            <h4 class="skillHeader  col-1">Frontend Technologies:</h4>
+            <div class="skill-item offset-1 col-1">
+                <i class="fab fa-react "></i>
+                <p>React.js</p>
+            </div>
+        </div>
+
+        <div class="skill-category row">
+            <h4 class="skillHeader col-1">Backend Technologies:</h4>
+            <div class="skill-item offset-1 col-1">
+                <i class="fab fa-node"></i>
+                <p>Node.js</p>
+            </div>
+        </div>
+
+        <div class="skill-category row">
+            <h4 class="skillHeader col-1">Database:</h4>
+            <div class="skill-item offset-1 col-1">
+                <i class="fas fa-database"></i>
+                <p>MySQL</p>
+            </div>
+            <div class="skill-item offset-1 col-1">
+                <i class="fas fa-database"></i>
+                <p>MongoDB</p>
+            </div>
+        </div>
+
+        <div class="skill-category row">
+            <h4 class="skillHeader col-1">Version Control System:</h4>
+            <div class="skill-item offset-1 col-1">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </div>
+        </div>
+
+        <div class="skill-category row">
+            <h4 class="skillHeader col-1">Data Analysis:</h4>
+            <div class="skill-item offset-1 col-1">
+                <i class="fas fa-chart-line"></i>
+                <p>R Programming</p>
+            </div>
+        </div>
+
+        <div class="skill-category row">
+            <h4 class="skillHeader col-1">Cloud Computing:</h4>
+            <div class="skill-item offset-1 col-1">
+                <i class="fas fa-cloud"></i>
+                <p>Cloud Computing</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2 id="projHead">Projects</h2> <br/> <br/>
+    <div class="container">
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="project-box" data-url="https://eyecare-chatbot.000webhostapp.com/">
+                    <h3>AI Eyecare Chatbot</h3>
+                    <p>Developed an AI chatbot for eyecare assistance. Created the frontend of the webpage using HTML, CSS, Bootstrap.</p>
+                  
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="project-box" data-url="">
+                    <h3>My Portfolio</h3>
+                    <p>Created this portfolio using HTML, CSS, Bootstrap, and JavaScript, where I showcased information about myself, my skills and projects.</p>
+                   
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-md-4">
+                <div class="project-box" data-url="https://github.com/Sindhu22204/ATMsimulation">
+                    <h3>ATM Simulation</h3>
+                    <p>Built an ATM simulation mini project using JDBC and swing concepts. Where withdraw, deposit and balance enquiry operations were performed.
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Project 4 -->
+            <div class="col-md-4">
+                <div class="project-box" data-url="https://sindhu22204.github.io/photography-web/">
+                    <h3>Photography Webpage</h3>
+                    <p>Created a simple Photography web page  showcasing dog photography using HTML, CSS, and JavaScript.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // JavaScript to handle click event and redirection
+    document.querySelectorAll('.project-box').forEach(function(box) {
+      box.addEventListener('click', function() {
+        var url = this.getAttribute('data-url');
+        if (url) {
+          window.location.href = url; // Redirect to the URL
+        }
+      });
+    });
+  </script>
+
+
+
+<section id="certification">
+    <div class="container">  <br/> <br/>
+        <h2 id="certifyHead"> Certifications </h2>
+         <table>
+            <table class="certification-table">
+                <tr class="eachRow">
+                  <th class="cell1">Platform</th>
+                  <th class="cell1">Certification</th>
+                  <th class="cell1">Issued</th>
+                  <th class="cell1"> link </th>
+                </tr>
+                <tr class="eachRow">
+                    <td class="cell">freeCodeCamp</td>
+                    <td class="cell">Respnsive Web Design</td>
+                    <td class="cell">Feb 2023</td>
+                    <td class="cell"> <a href="https://www.freecodecamp.org/certification/fcc7154f771-04b8-4438-9ffd-0a8e88d89038/responsive-web-design"> View Certification </a></td>
+                  </tr>
+                <tr class="eachRow">
+                  <td class="cell">Coursera</td>
+                  <td class="cell">Introduction to Web development with HTML, CSS, JavaScript</td>
+                  <td class="cell">Feb 2024</td>
+                  <td class="cell"> <a href="https://coursera.org/share/49f89b83b7185df2f98bb35f6409fae6"> View Certification </a> </td>
+                </tr>
+                <tr class="eachRow">
+                    <td class="cell">Coursera</td>
+                    <td class="cell">Developing frontend apps with React</td>
+                    <td class="cell">March 2024</td>
+                    <td class="cell"> <a href="https://www.coursera.org/account/accomplishments/verify/XYUQ3XWYBJJW"> View Certification </a></td>
+                  </tr>
+                <tr class="eachRow">
+                  <td class="cell">HackerRank</td>
+                  <td class="cell">Java (Basic)</td>
+                  <td class="cell">July 2024</td>
+                  <td class="cell"> <a href="https://www.hackerrank.com/certificates/f7b26fbdbb8d"> View Certification </a></td>
+                </tr>
+                
+
+               
+                
+              </table>
+         </table>
+    </div>
+</section>
+
+
+
+<section id="contact">
+    <h2 id="contactHead">ContactMe</h2> <br/>
+    <div class="icon-container">
+        <a href="https://www.linkedin.com/in/sindhu-l-6a689b231/" target="_blank" title="LinkedIn" rel="noopener">
+          <i id="linkdin" class="fab fa-linkedin"></i>
+        </a>
+        
+        <a href="https://github.com/Sindhu22204" target="_blank" title="GitHub" rel="noopener">
+          <i id="github" class="fab fa-github"></i>
+        </a>
+      </div>
+      
+</section>
+
+
+
+</div>
+</body>
+</html>
